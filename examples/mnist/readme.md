@@ -220,7 +220,7 @@ Check out the comments explaining each line in the prototxt `$CAFFE_ROOT/example
     snapshot: 5000
     snapshot_prefix: "examples/mnist/lenet"
     # solver mode: CPU or GPU
-    solver_mode: GPU
+    solver_mode: CPU
 
 
 ## Training and Testing the Model

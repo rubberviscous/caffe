@@ -168,7 +168,7 @@ The solver scaffolding prepares the optimization method and initializes the mode
     weight_decay: 0.0005
     snapshot: 5000
     snapshot_prefix: "examples/mnist/lenet"
-    solver_mode: GPU
+    solver_mode: CPU
     net: "examples/mnist/lenet_train_test.prototxt"
 
 Net initialization

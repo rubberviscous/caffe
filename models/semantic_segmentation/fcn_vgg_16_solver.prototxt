@@ -10,5 +10,5 @@ max_iter: 18000
 iter_size: 2
 snapshot: 1000
 snapshot_prefix: "fcn_vgg_16"
-solver_mode: GPU
+solver_mode: CPU
 device_id: [0,1,2,3,4,5,6,7]
